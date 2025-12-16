@@ -1,12 +1,12 @@
-#RL Drone Agent
+# RL Drone Agent
 
 An attempt to train a DQN agent to fly a simulated quadcopter drone using the tensorflow agents library and custom simulated environment.
 
-##Results
+## Results
 
 ![Eval GIF](eval_visualiser.gif)
 
-##How it works
+## How it works
 
 The goal of each training episode is for the agent to pilot the drone to a randomly selected coordinate in space. At each timestep the agent is given a vector pointing to this goal coordinate, a quaternion orientation vector, velocity vector and angular momentum vector. The agent then chooses from a set of options for the thrusts of the 4 propellers. Reward is given incrementally for getting closer to the goal coordinate as well as for reaching this goal.
 
