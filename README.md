@@ -4,6 +4,7 @@ An attempt to train a DQN agent to fly a simulated quadcopter drone using the te
 
 ## Results
 
+Achieved stable flight control and partially achieved navigation to target waypoints:
 ![Eval GIF](eval_visualiser.gif)
 
 ## How it works
